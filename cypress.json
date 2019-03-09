@@ -1,1 +1,8 @@
-{}
+{
+    "baseUrl": "http://automationpractice.com/index.php",
+    "env": {
+        "email": "someEmailId@dsafda.com",
+        "searchText": "Summer Dresses > Printed Chiffon Dress",
+        "password": "password"
+      }
+}

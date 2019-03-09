@@ -1,11 +1,13 @@
 describe('Automation Practice Test', function () {
 
-    let searchItemtext = 'Summer Dresses > Printed Chiffon Dress'
+    let searchItemtext = Cypress.env('searchText')
+    let emailID = Cypress.env('email')
+    let password = Cypress.env('password')
     
 
     context('Checkout', () => {
         beforeEach(() => {
-            cy.visit('http://automationpractice.com/index.php')
+            cy.visit('/')
         })
 
         it('Checkout and register to complete the order', () => {
@@ -26,7 +28,7 @@ describe('Automation Practice Test', function () {
         })  
 
         it('SignIn search and Checkout the order', () => {
-            cy.signIn({ email: 'someEmailId@dsafda.com', password: 'password' });
+            cy.signIn({ email: emailID, password: password });
             cy.searchItem({search_item: searchItemtext})
             cy.clickAddToCart()
             cy.clickproceedToCheckoutInsidePopup()
