@@ -1,6 +1,6 @@
 # HousingAnyWhereTest
 
-## Here I am first time trying to create a test using cypress.io, it an awsome tool for testing e2e. hope this will in future be a competitor for selenium and codedUI
+#### This is first time using cypress.io, its an awsome tool for generating e2e tests. Hope this will in future be a give endless competition to selenium and codedUI
 
 ## Following are the commands to intall and run the same
 
