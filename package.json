@@ -1,0 +1,26 @@
+{
+  "name": "housinganywheretest",
+  "version": "1.0.0",
+  "description": "Test Automation Practice Checkout Process after and before Registered Login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vipinmp5/CypressTest.git"
+  },
+  "keywords": [
+    "neo"
+  ],
+  "author": "VipinMp5",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vipinmp5/CypressTest/issues"
+  },
+  "homepage": "https://github.com/vipinmp5/CypressTest#readme",
+  "dependencies": {
+    "cypress": "^3.1.5"
+  }
+}
