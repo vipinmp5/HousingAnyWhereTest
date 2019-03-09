@@ -1,6 +1,6 @@
 # HousingAnyWhereTest
 
-## Following are the commands to run the same
+## Following are the commands to intall and run the same
 
 ```bash
 npm intall cypress
