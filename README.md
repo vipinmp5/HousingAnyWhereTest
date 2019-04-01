@@ -1,4 +1,4 @@
-# HousingAnyWhereTest
+# cypress test
 
 #### This is first time I am using cypress.io, its an awsome tool for generating e2e tests. Hope this will give an endless competition to selenium and codedUI
 
